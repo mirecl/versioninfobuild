@@ -10,4 +10,6 @@ func main() {
 	fmt.Println("Version:", versioninfo.Version)
 	fmt.Println("Revision:", versioninfo.Revision)
 	fmt.Println("LastCommit:", versioninfo.LastCommit)
+	fmt.Println(versioninfo.DirtyBuild)
+	fmt.Println(versioninfo.Short())
 }
